@@ -17,4 +17,8 @@ public class Shapes {
         return Math.PI * Math.pow(radius, 2);
     }
 
+    public static Double getEllipseArea(Double r1, Double r2) {
+        return Math.PI * r1 * r2;
+    }
+
 }
