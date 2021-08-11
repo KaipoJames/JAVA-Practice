@@ -7,6 +7,11 @@ public class Letters {
         System.out.println("a is a consonant: " + isConsonant('a'));
         System.out.println("c is a vowel: " + isVowel('c'));
         System.out.println("i is a vowel: " + isVowel('i'));
+
+        System.out.println(getSize('v'));
+        System.out.println(getSize(456_544_342));
+        System.out.println(getSize(23.55847360303));
+        System.out.println(getSize(23.0001));
     }
 
     public static boolean isVowel(Character c) {
@@ -24,6 +29,23 @@ public class Letters {
             }
         }
         return false;
+    }
+
+    public static Integer getSize(Integer i) {
+        String s = Integer.toString(i);
+        return s.length();
+    }
+    public static Integer getSize(Double d) {
+        String s = Double.toString(d);
+        return s.length();
+    }
+    public static Integer getSize(Float f) {
+        String s = Float.toString(f);
+        return s.length();
+    }
+    public static Integer getSize(Character c) {
+        String s = Character.toString(c);
+        return s.length();
     }
 
 
