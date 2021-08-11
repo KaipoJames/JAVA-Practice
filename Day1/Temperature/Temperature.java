@@ -30,6 +30,7 @@ public class Temperature {
         } else {
             System.exit(0);
         }
+        s.close();
     }
 
     public static Double toFahrenheit(Double celsius) {
