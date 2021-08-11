@@ -5,7 +5,7 @@ public class Numbers {
         printASCII('m');
         printASCII('w');
         printASCII('a');
-        
+
         ArrayList<Double> results = getDivisionResults(7.0, 3.0);
         System.out.println(results.get(0));
         System.out.println(results.get(1));
@@ -18,7 +18,6 @@ public class Numbers {
         sb.append(" is " + code);
         System.out.println(sb);
     }
-
     public static int getASCII(Character c) {
         return (int)c;
     }
