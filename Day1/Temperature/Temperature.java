@@ -12,7 +12,6 @@ public class Temperature {
             System.out.println("Enter any other key to quit the program");
             String choice = s.next();
             if (choice.equalsIgnoreCase("q")) {
-                s.close();
                 break;
             }
             execute(choice);
